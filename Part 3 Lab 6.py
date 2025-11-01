@@ -17,7 +17,7 @@ b = a.info()
 #there are 217-207= 10 null categories for physicians (10 countries did not report how many physicians they have)
 #there are 217-217= 0 null categories for population
 print(b)
-print("...LLLLL...") #just so i can easily see 
+print("...LLLLL...") #just so i can easily see where one print ends and another begins
 c = a.nunique()
 print(c)
 #according to this data set there are 5 unique regions.
@@ -56,4 +56,5 @@ for h in a['Life expectancy, female']:
        
         
 print("there are", nunber_counrtries, "with a female life expectancy above 80")
+
 
